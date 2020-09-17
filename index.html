@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html>
-<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+<html lang="en">
+<title>Gajhara</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -17,82 +21,80 @@
   
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.3"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  
-  
-<title>Gajhara</title>
-<!-- Global site tag (gtag.js) - Google Analytics -->
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-176152781-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-176152781-1');
-</script>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.3"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
+
+
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
 <body>
 
-<header class="text-gray-700 body-font">
-  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-   
-      <span class="ml-3 text-xl">  <a href="index.html" class="mr-5 hover:text-gray-900"><img src="https://imgur.com/NDTH3CW.png" alt="Avatar" style="width:110px"></a></span>
-    </a>
-    <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-      <a  href="" class="mr-5 hover:text-gray-900 w3-text-black"><b></b></a>
-      <a href="" class="mr-5 hover:text-gray-900 w3-text-black"> <i class="fa fa-users w3-text-teal" aria-hidden="true"></i>  ग्राम पंचायत</a>
-      <a  href="foto.html"class="mr-5 hover:text-gray-900 w3-text-black"><i class="fa fa-picture-o  w3-text-teal" aria-hidden="true"></i>  इमेज गैलरी</a>
-      <a  href="" class="mr-5 hover:text-gray-900 w3-text-black"><i class="fa fa-flag  w3-text-teal" aria-hidden="true" ></i>  अधिसूचना</a></button>
-    </nav>
-    <button class="inline-flex items-center bg-gray-200 border-0 py-1 px-3 focus:outline-none hover:bg-gray-300 rounded text-base mt-4 md:mt-0" onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black"> 
-      <i class="fa fa-comments-o  w3-text-teal" aria-hidden="true"></i>  गप-शप
-      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-        </path>
-      </svg>
-    </button>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3- w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large"><img src="https://imgur.com/Db03vGh.png" alt="Avatar" style="width:70px"></a>
+    
+	<span class="w3-right">
+	 
+	
+	
+	
+	
+	<button onclick="document.getElementById('id01').style.display='block'" class="w3-bar-item w3-button w3-padding-large ">
+	<img src="https://imgur.com/wP9qqf4.png" alt="Avatar" style="width:90px">
+	</button>
+	
+	<a href="" class="w3-bar-item w3-button w3-padding-large w3-hide-small"> ग्राम पंचायत</a>
+    <a href="foto.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small"> इमेज गैलरी</a>
+    <a href="" class="w3-bar-item w3-button w3-padding-large w3-hide-small">अधिसूचना</a>
+	
+    </span>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"></i></a>
   </div>
-</header>
+</div>
 
 
   <div id="id01" class="w3-modal">
-    <div class="w3-modal-content">
-      <div class="w3-container">
-        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-    <header class="text-gray-700 body-font">
-  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-
-   
-    </a>
-        <img src="https://imgur.com/wkRsv4a.png" alt="Avatar" style="width:200px"></a>
-      
-       <div class="fb-comments" data-href="https://gajhara.com/" data-width="1200px" data-numposts="5"></div>
-    
-
-  </div>
-
-</header>
-      </div>
+    <div class="w3-modal-content w3-card-4">
+      <header class="w3-container "> 
+        <span onclick="document.getElementById('id01').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2><img src="https://imgur.com/wP9qqf4.png" alt="Avatar" style="width:90px"></h2>
+      </header>
+      <div class="fb-comments" data-href="https://gajhara.com/" data-width="1200px" data-numposts="5"></div>
+      <footer class="w3-container w3-teal">
+        <p>Modal Footer</p>
+      </footer>
     </div>
   </div>
 </div>
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+ <a href="" class="w3-bar-item w3-button w3-padding-large w3-hide-small"> ग्राम पंचायत</a>
+    <a href="foto.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small"> इमेज गैलरी</a>
+    <a href="" class="w3-bar-item w3-button w3-padding-large w3-hide-small">अधिसूचना</a>
+</div>
 
+<!-- Page content -->
+<div class="w3-content " style="max-width:2000px;margin-top:46px">
 
-
- <div class=" w3-text-black w3-hide-small" style="padding:50px">
+  <!-- Automatic Slideshow Images -->
+  <div class=" w3-display-container w3-center">
   
-   <span class="w3-hide-small">
-   <div class="w3-row">
-  <div class="w3-col s6  w3-left"><br><br>
-    <img src="https://imgur.com/rbXJypB.png" alt="Avatar" style="width:400px">
-
-     </div></span>
-  <div class="w3-col s6">
-    
-    
+ 
+  
+<div class="w3-row w3-container w3-hide-small">
+<br><br>
+  <div class="w3-col s6  w3-center">
+   <img src="https://imgur.com/rbXJypB.png" style="width:100%">
+  </div>
+  <div class="w3-col s6 w3-center">
     <div id="demo" class="carousel slide" data-ride="carousel">
 
   <!-- The slideshow -->
@@ -113,29 +115,16 @@
   
  
 </div>
-       
   </div>
 </div>
 
-<div class="text-gray-700 body-font">
-  <div class="container mx-auto flex flex-col px-5 py-24 justify-center items-center">  
- 
-   <div class="w3-container w3-content w3-center w3-padding-12" style="max-width:800px" id="band">
-      <span "container mx-auto flex flex-col px-5 py-24 justify-center items-center">
-   </span>
-   
-  </div>
-   
-      </div>
-      
-</div>
+  
+
   
   </div>
- <div class="w3-hide-large">
- 
-    
-    
-    <div id="demo" class="carousel slide" data-ride="carousel">
+  <div class="w3-hide-large w3-hide-medium">
+  <br><br>
+  <div id="demo" class="carousel slide" data-ride="carousel">
 
   <!-- The slideshow -->
   <div class="carousel-inner">
@@ -155,164 +144,108 @@
   
  
 </div>
+
+<br><br>
+ <img src="https://imgur.com/rbXJypB.png" style="width:100%">
+  
+  
+  
+  </div>
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide"><img src="https://imgur.com/bLoG6bJ.png" alt="Avatar" style="width:180px"></h2>
     
-     
-     
-  <img src="https://imgur.com/rbXJypB.png" alt="Ocean II" class="w3-image w3-margin-top" width="1000" height="500">
-     <br>
-     <br>
-     <br><br> <br>
-   </div>
-  <div class="text-gray-700 body-font ">
-  <div class="container mx-auto flex  items-center justify-center flex-col">
-    <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="https://imgur.com/HrArI7o.png" width="50px">
-     <!-- The Band Section -->
-  <div class="w3-container w3-content w3-center w3-padding-12" style="max-width:800px" id="band">
-   
     <p class="w3-justify">गजहरा गाम विहार राज्यके मधुबनी जिलामे परैत अछि। 
 बलियासय पाठककें बसाओल थिक ई गाम । दक्षिणमें दुर्गास्थान , पाठक पोखरि आ पोखरि महार पर कन्या विद्यालय अछि ई विद्यालयकें संस्थापिका आ प्रथम अध्यापिका 
       अम्बिका देबी छलिह , दोसर मिडिल स्कुल अछि ।प़श्चिममें पाठशाला  अछि। उत्तर आ पश्चिममें महादेव मठ अछि ।पुव आ दक्षिणमें पोखरि आ महादेवक मन्दिर 
       अछि । गजहरा गाममें एकटा टोल अछि, जकर की नाम अछि पंडित टोल। एहि टोलमें महामहोपाध्याय जयदेव मिश्र, महामहोपाध्याय उमेश मिश्र   
       इत्यादि लोकनि कें जन्मभुमि गजहरा 
-      शत शत नमन मातृभूमिके 🙏🙏🙏🙏🙏🙏🙏</p>
+      शत शत नमन मातृभूमिके 🙏🙏🙏🙏🙏🙏🙏.</p>
     <div class="w3-row w3-padding-32">
-     
-    </div>
-  </div>
-    
-    
-   </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-   
-   
-
-<div class="text-gray-700 body-font">
-  <div class="container mx-auto flex flex-col px-5 py-24 justify-center items-center">
-    
-   
- 
-    <div class="flex flex-wrap -m-4">
-      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a class="block relative h-48 rounded overflow-hidden">
-          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://imgur.com/k1WEH78.png">
-        </a>
-        <div class="mt-4">
-          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1"></h3>
+      <div class="w3-third">
         
-        </div>
+        <img src="https://imgur.com/k1WEH78.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:95%">
       </div>
-      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a class="block relative h-48 rounded overflow-hidden">
-          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://imgur.com/tXrSgWU.png">
-        </a>
-        <div class="mt-4">
-          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1"></h3>
-       
-        </div>
+      <div class="w3-third">
+   
+        <img src="https://imgur.com/tXrSgWU.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:95%">
       </div>
-      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a class="block relative h-48 rounded overflow-hidden">
-          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://imgur.com/mIU0M8X.png">
-        </a>
-        <div class="mt-4">
-          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1"></h3>
-         
-        </div>
+      <div class="w3-third">
+        
+        <img src="https://imgur.com/mIU0M8X.png" class="w3-round" alt="Random Name" style="width:95%">
       </div>
-      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a class="block relative h-48 rounded overflow-hidden">
-          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://imgur.com/5boLd0G.png">
-        </a>
-        <div class="mt-4">
-          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1"></h3>
-          
-        </div>
+    </div>
+	<div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        
+        <img src="https://imgur.com/5boLd0G.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:95%">
       </div>
-      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a class="block relative h-48 rounded overflow-hidden">
-           <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://imgur.com/qc5gSiJ.png">
-        </a>
-        <div class="mt-4">
-          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1"></h3>
-      
-        </div>
+      <div class="w3-third">
+   
+        <img src="https://imgur.com/qc5gSiJ.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:95%">
       </div>
-      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a class="block relative h-48 rounded overflow-hidden">
-          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://imgur.com/BxrWr05.png">
-        </a>
-        <div class="mt-4">
-          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1"></h3>
-          
-        </div>
-      </div>
-      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a class="block relative h-48 rounded overflow-hidden">
-          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://imgur.com/vsjzbpv.png">
-        </a>
-        <div class="mt-4">
-          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1"></h3>
-         
-        </div>
-      </div>
-      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a class="block relative h-48 rounded overflow-hidden">
-          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://imgur.com/lQJV0vq.png">
-        </a>
-        <div class="mt-4">
-          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1"></h3>
-          
-        </div>
+      <div class="w3-third">
+        
+        <img src="https://imgur.com/BxrWr05.png" class="w3-round" alt="Random Name" style="width:95%">
       </div>
     </div>
   </div>
-</div>
-<footer class="text-gray-700 body-font">
-  <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-    <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-     
-        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-      </svg>
-      <span class="ml-3 text-xl"><img src="https://imgur.com/RrXPx2s.png" alt="Avatar" style="width:90px"></span>
-    </a>
-    <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2020 Gajahra.com —
-      <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">| संपर्क करू |</a>
- 
-    </p>
-    <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-      <a class="text-gray-500">
-        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-        </svg>
-      </a>
-      <a class="ml-3 text-gray-500">
-        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-          <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-        </svg>
-      </a>
-      <a class="ml-3 text-gray-500">
-        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-          <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-          <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-        </svg>
-      </a>
-      <a class="ml-3 text-gray-500">
-        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
-          <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
-          <circle cx="4" cy="4" r="2" stroke="none"></circle>
-        </svg>
-      </a>
-    </span>
-  </div><br>
-<p class="w3-center"><b>| विनय कांत मिश्र "कन्हैया जी "  के समर्पित|<b></p>
-</footer>
-</body>
 
+ 
+
+<
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey ">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">© 2020 Gajahra.com</a></p>
+  
+  <br><p class="w3-center w3-tag"> विनय कांत मिश्र "कन्हैया जी "  के समर्पित</p>
+</footer>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v7.0" nonce="ytANIzah">
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v7.0" nonce="ytANIzah"></script>
-
+</body>
 </html>
+
